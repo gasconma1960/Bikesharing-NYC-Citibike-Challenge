@@ -10,3 +10,5 @@
 
 ![image](https://user-images.githubusercontent.com/112348240/213604064-7352bd05-8c2e-4e7f-800e-65357902e5a0.png)
 
+[My link to Tableau Public](https://public.tableau.com/app/profile/marisol.gascon.linarez/viz/NYCCitibikeChallenge_16739228347560/NYCCitibikeMainDashboard)
+
