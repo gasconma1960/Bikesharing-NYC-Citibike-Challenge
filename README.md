@@ -3,7 +3,6 @@
 ![image](https://user-images.githubusercontent.com/112348240/213840731-05fff15d-bd0d-4a98-87e6-5e45d9276661.png)
 
 
-
 # Background
 
   Now that we've gotten a good idea of how to create our story, there is still some more work to be done to convince investors that a bike-sharing program in Des Moines is a solid business proposal. To solidify the proposal, one of the key stakeholders would like to see a bike trip analysis.
@@ -75,8 +74,7 @@ Open Tableau and import the new CSV file that contains the conversion of the "tr
   5. Edit the X and Y axis labels by right-clicking on the axis label and selecting "Edit Axis".
 
   6. My graph should look similar to the image on the module:
-  
-  
+    
 ![Chckout Times for Users](https://user-images.githubusercontent.com/112348240/213360009-401c55a0-968b-49ec-ac6f-386976d728ea.png)
 
 # Create the Checkout Times by Gender Viz
@@ -93,17 +91,25 @@ In this visualization, I’ll graph the length of time that bikes are checked ou
 
 ![Checkout Times by Gender](https://user-images.githubusercontent.com/112348240/213360010-8361477a-1354-4382-9326-ca6331e690c2.png)
 
-Create the Trips by Weekday for Each Hour Viz
-In this visualization, you’ll graph the number of bike trips by weekday for each hour of the day as a heatmap.
+# Create the Trips by Weekday for Each Hour Viz
 
-Add the "Starttime" column to the Rows, and filter the "More" option by "Hour".
-Add the "Stoptime" column to the Columns, and filter the “More” option by "Weekday".
-Add the number of records or the generated field that counts the number of records in the CSV file to the Marks field as a color. Select "Automatic" for the type of graph to create the heatmap.
-Format the Y axis of the Starttime by Hour to show the 12-hour format, as shown in the following image:
+In this visualization, you’ll graph the number of bike trips by weekday for each hour of the day as a heatmap.
+  1. Add the "Starttime" column to the Rows, and filter the "More" option by "Hour".
+  
+  2. Add the "Stoptime" column to the Columns, and filter the “More” option by "Weekday".
+  
+  3. Add the number of records or the generated field that counts the number of records in the CSV file to the Marks field as a color. Select "Automatic" for the type of graph to create the heatmap.
+  
+  4. Format the Y axis of the Starttime by Hour to show the 12-hour format, as shown in the following image:
 The Format field pane to edit the headers in the chart.
-Optional: Format the X axis of Stoptime by Weekday as "Abbreviation".
-Your graph should look similar to the following image:Heatmap showing the number of trips by weekday for each hour of the day
-Create the Trips by Gender (Weekday per Hour) Viz
+
+  5. **Optional:** Format the X axis of Stoptime by Weekday as "Abbreviation".
+ 
+ 6. My graph looks similar to the challenge  image:
+ 
+ ![Trips by Gender (Weekday per Hour)](https://user-images.githubusercontent.com/112348240/213360011-a1ca0140-a307-4ed3-b9dd-87b9ae7f6946.png)
+ 
+# Create the Trips by Gender (Weekday per Hour) Viz
 In this visualization, you’ll graph the number of bike trips by gender for each hour of each day of the week as a heatmap.
 
 Repeat steps 1-3 from the "Trips by Weekday per Hour" visualization.
@@ -111,40 +117,78 @@ Add the converted column for "Gender" to the Columns and to the Filters field, a
 Format the Y axis of the Starttime by Hour to show the 12-hour format.
 Optional: Format the X axis of Stoptime by Weekday as "Abbreviation".
 Your graph should look similar to the following image:
-The number of trips by gender for each hour of each day of the week as a heatmap.
-Create the User Trips by Gender by Weekday Viz
+
+ ![Trips by Weekday by Hour](https://user-images.githubusercontent.com/112348240/213360013-cff51120-f583-4307-8f38-9d34d2b0eb29.png)
+
+# Create the User Trips by Gender by Weekday Viz
+
 In this visualization, you'll create a heatmap that shows the number of bike trips broken down by gender for each day of the week by each Usertype.
 
-Add the converted column for "Gender" to the Columns and to the Filters field, and select "Show Filter".
-Add the "Usertype" to the Rows and to the Filters field, and select "Show Filter".
-Add the "Starttime" column to the Rows, and filter the "More" option by "Weekday".
-Add the number of records or the generated field that counts the number of records in the CSV file to the Marks field as a color. Select "Automatic" for the type of graph to create the heatmap.
-Your graph should look similar to the following image:
-The number of trips for each usertype by gender by each day of the week as a heatmap.
+  1. Add the converted column for "Gender" to the Columns and to the Filters field, and select "Show Filter".
 
-# Deliverable 3: Create a Story and Report for the Final Presentation
+  2. Add the "Usertype" to the Rows and to the Filters field, and select "Show Filter".
+
+  3. Add the "Starttime" column to the Rows, and filter the "More" option by "Weekday".
+
+  4. Add the number of records or the generated field that counts the number of records in the CSV file to the Marks field as a color. Select "Automatic" for the type of graph to create the heatmap.
+  
+  5. My graph looks similar to the module challenge image:
+
+  ![image](https://user-images.githubusercontent.com/112348240/213604064-7352bd05-8c2e-4e7f-800e-65357902e5a0.png)
+
+# **Deliverable 3: Create a Story and Report for the Final Presentation**
+
 For this part of the Challenge, you’ll create a story in Tableau and write a report that describes the key outcomes of the NYC Citibike analysis you did in the module and in Deliverable 2.
 
 Follow the instructions below to complete Deliverable 2.
 
 In Tableau, create a new Story using visualizations that will support the key findings you want to show.
 
-You must use the five visualizations that you created in Deliverable 2.
-You must use at least two visualizations that you created in this module.
-In your README markdown file, include the following:
-Overview of the analysis: Explain the purpose of this analysis.
-Results: Using the visualizations you have in your Tableau Story, describe the results of each visualization underneath the image.
-Summary: Provide a high-level summary of the results and two additional visualizations that you would perform with the given dataset.
+  1. You must use the five visualizations that you created in Deliverable 2.
+  
+  ![image](https://user-images.githubusercontent.com/112348240/213846021-09ecd9ef-77b3-4a0f-b17d-e1de09447832.png)
+  
+  ![image](https://user-images.githubusercontent.com/112348240/213846036-f926ebad-9a04-45e9-88ef-ea39236bbf0f.png)
 
+  ![image](https://user-images.githubusercontent.com/112348240/213846043-37597e47-f47a-424f-ba15-b976f43dad3f.png)
+
+  ![image](https://user-images.githubusercontent.com/112348240/213846066-70a5d6f9-8f37-4de3-9d04-bae7680303d9.png)
+
+  ![image](https://user-images.githubusercontent.com/112348240/213846088-aeab9e70-367d-40f2-a745-98052f62459a.png)
+
+  2. You must use at least two visualizations that you created in this module.
+
+  ![image](https://user-images.githubusercontent.com/112348240/213846104-2d1763db-2af1-4e54-8bc2-01399d33afd9.png)
+  
+  ![image](https://user-images.githubusercontent.com/112348240/213846117-8c63e46f-a432-480a-8578-a58ad513e0fb.png)
+
+
+  3. In your README markdown file, include the following:
+
+    - **Overview of the analysis:** Explain the purpose of this analysis.
+    We need to convince investors that a bike-sharing program in Des Moines is a solid business proposal
+
+    - **Results:** Using the visualizations you have in your Tableau Story, describe the results of each visualization underneath the image.
+      This part is include on my Tableau 
+
+    - **Summary:** Provide a high-level summary of the results and two additional visualizations that you would perform with the given dataset.
+      - People that born around 1969 shows in the chart has the highiest group that use the service
+      - It was a Total of ** 2,344,224 Rides**
+      - it is a total of 1,900,359 Subscriber and 443,865.
+      - The group of people by gender that use the most this service are males as they subscribe
+      
+      Also, there many visualization that could be create with the whole dataset.
+      Below is a screenshot of my Dashboard. I create 2 of the but the this is the main one.
 
 ![image](https://user-images.githubusercontent.com/112348240/213844139-d1259e61-9138-4886-8825-cbd404c43b8c.png)
 
 
 
-![Trips by Gender (Weekday per Hour)](https://user-images.githubusercontent.com/112348240/213360011-a1ca0140-a307-4ed3-b9dd-87b9ae7f6946.png)
-![Trips by Weekday by Hour](https://user-images.githubusercontent.com/112348240/213360013-cff51120-f583-4307-8f38-9d34d2b0eb29.png)
 
-![image](https://user-images.githubusercontent.com/112348240/213604064-7352bd05-8c2e-4e7f-800e-65357902e5a0.png)
+
+
+
+
 
 [My link to Tableau Public](https://public.tableau.com/app/profile/marisol.gascon.linarez/viz/NYCCitibikeChallenge_16739228347560/NYCCitibikeMainDashboard)
 
