@@ -193,6 +193,8 @@ In Tableau, create a new Story using visualizations that will support the key fi
 [My link to Tableau Public](https://public.tableau.com/app/profile/marisol.gascon.linarez/viz/NYCCitibikeChallenge_16739228347560/NYCCitibikeMainDashboard)
 
 # Sources:
+Citi Bike System Data page Links to an external site.. 
+Jupyter Notebook, Pandas Library and Tableau Public as well as Desktop version.
 
 # Module 15 Challenge.
 By **Marisol Gascon Linarez**
