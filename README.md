@@ -135,7 +135,7 @@ Results: Using the visualizations you have in your Tableau Story, describe the r
 Summary: Provide a high-level summary of the results and two additional visualizations that you would perform with the given dataset.
 
 
-![image](https://user-images.githubusercontent.com/112348240/213603914-0b524657-4c01-44c4-9b4c-f0a2f85b3f87.png)
+![image](https://user-images.githubusercontent.com/112348240/213844139-d1259e61-9138-4886-8825-cbd404c43b8c.png)
 
 
 ![Chckout Times for Users](https://user-images.githubusercontent.com/112348240/213360009-401c55a0-968b-49ec-ac6f-386976d728ea.png)
